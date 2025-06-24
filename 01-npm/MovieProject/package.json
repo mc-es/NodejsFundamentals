@@ -1,4 +1,5 @@
 {
+  "author": "mc-es",
   "name": "movie-project",
   "version": "1.0.0",
   "description": "Movie Database Apisi kullanılarak geliştirilen bir projedir",
@@ -8,7 +9,6 @@
     "build": "webpack --watch --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "author": "mces58",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.5",

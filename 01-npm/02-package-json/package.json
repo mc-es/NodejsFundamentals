@@ -16,10 +16,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mces58/JavaEssentials.git"
+    "url": "https://github.com/mc-es/JavaEssentials.git"
   },
   "bugs": {
-    "url": "https://github.com/mces58/JavaEssentials/issues"
+    "url": "https://github.com/mc-es/JavaEssentials/issues"
   },
-  "homepage": "https://github.com/mces58/JavaEssentials#readme"
+  "homepage": "https://github.com/mc-es/JavaEssentials#readme"
 }

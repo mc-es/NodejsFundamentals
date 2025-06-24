@@ -17,15 +17,15 @@ result = path.resolve("/admin/products", "./app"); // C:\admin\products\app
 console.log(result);
 
 // Verilen dosya yolunu ayrıştırır. Bu, dizinlerin veya dosyaların ayrıştırılması için kullanılabilir.
-result = path.parse(__filename); // { root: 'C:\\', dir: 'C:\\Users\\mces58\\Desktop\\nodejs\\00-nodejs-fundamental\\09-path-module', base: 'app.js', ext: '.js', name: 'app' }
+result = path.parse(__filename); // { root: 'C:\\', dir: 'C:\\Users\\mc-es\\Desktop\\nodejs\\00-nodejs-fundamental\\09-path-module', base: 'app.js', ext: '.js', name: 'app' }
 console.log(result);
 
 // Verilen dosya yolunu, platforma özgü bir dosya yoluna dönüştürür.
-result = path.toNamespacedPath(__filename); // \\?\C:\Users\mces58\Desktop\nodejs\00-nodejs-fundamental\09-path-module\app.js
+result = path.toNamespacedPath(__filename); // \\?\C:\Users\mc-es\Desktop\nodejs\00-nodejs-fundamental\09-path-module\app.js
 console.log(result);
 
 // Verilen dosya yollarını birleştirir. Bu, dizinlerin veya dosyaların birleştirilmesi için kullanılabilir.
-result = path.join("C:\\user", "mces58\\dowloads", "temp/asdg", "quux"); // C:\user\mces58\dowloads\temp\asdg\quux
+result = path.join("C:\\user", "mc-es\\dowloads", "temp/asdg", "quux"); // C:\user\mc-es\dowloads\temp\asdg\quux
 console.log(result);
 
 // Verilen dosya yolunu normalleştirir. Örneğin, geriye dönüşlerin düzeltilmesi ve birden fazla ardışık bölümlerin tek bir bölüme indirgenmesi gibi işlemleri gerçekleştirir.
@@ -49,7 +49,7 @@ result = path.basename(__filename); // app.js
 console.log(result);
 
 // Verilen dosya yolunun kök dizinini döndürür.
-result = path.dirname(__filename); // C:\Users\mces58\Desktop\nodejs\00-nodejs-fundamental\09-path-module
+result = path.dirname(__filename); // C:\Users\mc-es\Desktop\nodejs\00-nodejs-fundamental\09-path-module
 console.log(result);
 
 // Dosya yolunu içeren bir nesneyi, bir dize olarak biçimlendirmek için kullanılır. Bu fonksiyon, path.parse() işlevinin tam tersini yapar ve bir dosya yolunu bir nesne olarak çözümlenen halden tekrar dizeye çevirir.
